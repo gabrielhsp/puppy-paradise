@@ -1,22 +1,22 @@
 PODS:
-  - GHModalStatus (1.0.1)
+  - GHModalStatus (1.0.9)
 
 DEPENDENCIES:
-  - GHModalStatus (from `https://github.com/gabrielhsp/modal-status-ios.git`, tag `v1.0.1`)
+  - GHModalStatus (from `https://github.com/gabrielhsp/modal-status-ios.git`, tag `1.0.9`)
 
 EXTERNAL SOURCES:
   GHModalStatus:
     :git: https://github.com/gabrielhsp/modal-status-ios.git
-    :tag: v1.0.1
+    :tag: 1.0.9
 
 CHECKOUT OPTIONS:
   GHModalStatus:
     :git: https://github.com/gabrielhsp/modal-status-ios.git
-    :tag: v1.0.1
+    :tag: 1.0.9
 
 SPEC CHECKSUMS:
-  GHModalStatus: dd7b5b95fc6afd9d0f3234ffc2c060b1e64a8fef
+  GHModalStatus: 1bb32194e300d90c34c8aa519f0b1d6df30245b1
 
-PODFILE CHECKSUM: 6b6a6ec75165affed72d9c440338546a3fb071db
+PODFILE CHECKSUM: b96749c5d19428e0603aaa92832259a9b2ff1f1a
 
 COCOAPODS: 1.6.1

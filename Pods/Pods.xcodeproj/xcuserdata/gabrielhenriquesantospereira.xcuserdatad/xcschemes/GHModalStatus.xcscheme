@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A20503693B1E7A6CE28F3C67D4CCFB7"
-               BuildableName = "GHModalStatus"
+               BlueprintIdentifier = "4BC3927C9F1493F382122617340526D6"
+               BuildableName = "GHModalStatus.framework"
                BlueprintName = "GHModalStatus"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

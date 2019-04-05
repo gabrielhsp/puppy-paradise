@@ -6,5 +6,5 @@ target 'PuppyParadise' do
   use_frameworks!
 
   # Pods for PuppyParadise
-  pod 'GHModalStatus', :git=> 'https://github.com/gabrielhsp/modal-status-ios.git', :tag=> 'v1.0.1'
+  pod 'GHModalStatus', :git=> 'https://github.com/gabrielhsp/modal-status-ios.git', :tag=> '1.0.9'
 end

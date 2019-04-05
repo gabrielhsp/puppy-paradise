@@ -1,0 +1,6 @@
+framework module GHModalStatus {
+  umbrella header "GHModalStatus-umbrella.h"
+
+  export *
+  module * { export * }
+}
