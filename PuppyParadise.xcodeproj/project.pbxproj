@@ -12,6 +12,7 @@
 		70AC96321F8DD2B500960B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AC96301F8DD2B500960B51 /* Main.storyboard */; };
 		70AC96341F8DD2B500960B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AC96331F8DD2B500960B51 /* Assets.xcassets */; };
 		70AC96371F8DD2B500960B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AC96351F8DD2B500960B51 /* LaunchScreen.storyboard */; };
+		A277CF7FEA637C436724942E /* Pods_PuppyParadise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BD75290B28E9FA5318758A /* Pods_PuppyParadise.framework */; };
 		B80D39462257C566007D77BF /* GHModalStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80D39432257C51F007D77BF /* GHModalStatus.framework */; };
 		B80D39472257C566007D77BF /* GHModalStatus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B80D39432257C51F007D77BF /* GHModalStatus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11BD75290B28E9FA5318758A /* Pods_PuppyParadise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyParadise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A4AAD17CA4028AF8F94F51 /* Pods-PuppyParadise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyParadise.release.xcconfig"; path = "Target Support Files/Pods-PuppyParadise/Pods-PuppyParadise.release.xcconfig"; sourceTree = "<group>"; };
 		70AC96291F8DD2B500960B51 /* PuppyParadise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyParadise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AC962C1F8DD2B500960B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70AC962E1F8DD2B500960B51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 		70AC96331F8DD2B500960B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AC96361F8DD2B500960B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70AC96381F8DD2B500960B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949A90C7982E1494F5C0C6DB /* Pods-PuppyParadise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyParadise.debug.xcconfig"; path = "Target Support Files/Pods-PuppyParadise/Pods-PuppyParadise.debug.xcconfig"; sourceTree = "<group>"; };
 		B80D393D2257C51F007D77BF /* GHModalStatus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHModalStatus.xcodeproj; path = "../modal-status-ios/GHModalStatus.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B80D39462257C566007D77BF /* GHModalStatus.framework in Frameworks */,
+				A277CF7FEA637C436724942E /* Pods_PuppyParadise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				B80D393D2257C51F007D77BF /* GHModalStatus.xcodeproj */,
 				70AC962B1F8DD2B500960B51 /* PuppyParadise */,
 				70AC962A1F8DD2B500960B51 /* Products */,
+				B58EECEC6C748DE77344FF86 /* Pods */,
+				D72F1856ABB58D288B31FEBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +114,16 @@
 			path = PuppyParadise;
 			sourceTree = "<group>";
 		};
+		B58EECEC6C748DE77344FF86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				949A90C7982E1494F5C0C6DB /* Pods-PuppyParadise.debug.xcconfig */,
+				44A4AAD17CA4028AF8F94F51 /* Pods-PuppyParadise.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B80D393E2257C51F007D77BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +133,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D72F1856ABB58D288B31FEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BD75290B28E9FA5318758A /* Pods_PuppyParadise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70AC963B1F8DD2B500960B51 /* Build configuration list for PBXNativeTarget "PuppyParadise" */;
 			buildPhases = (
+				FADC948147FA334C5A243B9C /* [CP] Check Pods Manifest.lock */,
 				70AC96251F8DD2B500960B51 /* Sources */,
 				70AC96261F8DD2B500960B51 /* Frameworks */,
 				70AC96271F8DD2B500960B51 /* Resources */,
@@ -207,6 +233,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FADC948147FA334C5A243B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PuppyParadise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70AC96251F8DD2B500960B51 /* Sources */ = {
@@ -357,6 +408,7 @@
 		};
 		70AC963C1F8DD2B500960B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949A90C7982E1494F5C0C6DB /* Pods-PuppyParadise.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,6 +426,7 @@
 		};
 		70AC963D1F8DD2B500960B51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A4AAD17CA4028AF8F94F51 /* Pods-PuppyParadise.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

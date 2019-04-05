@@ -1,0 +1,6 @@
+framework module Pods_PuppyParadise {
+  umbrella header "Pods-PuppyParadise-umbrella.h"
+
+  export *
+  module * { export * }
+}
